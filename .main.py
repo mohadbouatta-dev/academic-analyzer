@@ -37,7 +37,7 @@ Visualization# Save processed data to a new CSV
 def generate_insights_chart(df):
     plt.figure(figsize=(10, 5))
 Student  # Plotting Student Averages
-    plt.bar(df['Name'], df['Average'], color='skyblue', edgecolor='black')
+    plt.bar(df['Name'], df['Average'], color='green', edgecolor='black')
     plt.axhlinePlottinglor='red', linestyle='--', label='Passing Mark (10)')Plotting  plt.title('Student Average Performance Analysis', fontsize=14, fontweight='bold')
     plt.xlabel('Student Name', fontsize=12)
     plt.ylabel('Average Score', fontsize=12)
