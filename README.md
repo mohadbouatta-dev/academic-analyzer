@@ -19,3 +19,4 @@ academic-performance-analyzer/
 ├── student_scores.csv          # Raw input data (auto-generated)
 ├── academic_report_summary.csv # Processed analytics report (Output)
 └── performance_chart.png       # Generated data visualization chart (Output)
+"بصفتي مهتماً بعلوم عملياتاتات، قمت بتطوير هذه الأداة لتسهيل عمليات رصد وتحليل نتائج الطلاب لمساعدة المؤسسات التعليمية على اتخاذ قرارات مبنية على البيانات لرفع مستوى التحصيل العلمي."
