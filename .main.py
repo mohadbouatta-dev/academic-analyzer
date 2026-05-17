@@ -20,7 +20,11 @@ def analyze_data():
         generate_sample_data()
         
     # Load data
-    df = pd.csv = pd.read_csv('student_scores.csv')
+        df = pd.read_csv('student_scores.csv')
+    ```
+
+باقي الكود الأول سليم تماماً وسيؤدي الغرض المطلوب منه في الـ CV والـ Releases دون مشاكل! هل تريد المساعدة في أي تعديل آخر؟
+
     
     # Calculate Total and Average Score for each student
     df['Total_Score'] = df[['Math_Score', 'Science_Score', 'English_Score']].sum(axis=1)
